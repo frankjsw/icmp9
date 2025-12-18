@@ -28,3 +28,11 @@ jobs:
     - name: Run the Xray configuration script
       run: |
         python generate_xray_config.py
+
+    - name: Upload Xray config and Shadowsocks subscription
+      uses: actions/upload-artifact@v2
+      with:
+        name: xray-config-files
+        path: |
+          ./xray_config.json
+          ./shadowsocks_subscription.txt
