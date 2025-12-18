@@ -31,7 +31,7 @@ BASE_SOCKS_PORT = 10808
 BASE_REDIR_PORT = 10809
 
 # 默认服务器IP
-DEFAULT_SERVER_IP = "2607:ff68:100:106::5f"#改成你的服务器IP
+DEFAULT_SERVER_IP = "2001:df6:11c0:855a::1"#改成你的服务器IP
 
 # Xray配置文件路径
 XRAY_CONFIG_PATH = "./xray_config.json"
