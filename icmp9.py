@@ -20,10 +20,10 @@ TUNNEL_PORT = 443
 
 # Shadowsocks固定配置
 SS_METHOD = "2022-blake3-aes-128-gcm"
-SS_PASSWORD = " "#自己设置一个密码
+SS_PASSWORD = "123456"#自己设置一个密码
 
 # VMess固定UUID
-VMESS_UUID = " "#自己设置一个UUID
+VMESS_UUID = "e9d0b62a-b2ca-4e0b-83fa-927947dd1f86"#自己设置一个UUID
 
 # 基础端口配置
 BASE_SS_PORT = 10001
@@ -31,7 +31,7 @@ BASE_SOCKS_PORT = 10808
 BASE_REDIR_PORT = 10809
 
 # 默认服务器IP
-DEFAULT_SERVER_IP = " "#改成你的服务器IP
+DEFAULT_SERVER_IP = "66.235.170.68"#改成你的服务器IP
 
 # Xray配置文件路径
 XRAY_CONFIG_PATH = "/etc/icmp9/xray.json"
