@@ -30,7 +30,7 @@ jobs:
         python generate_xray_config.py
 
     - name: Upload Xray config and Shadowsocks subscription
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: xray-config-files
         path: |
