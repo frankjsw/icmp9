@@ -34,7 +34,7 @@ BASE_REDIR_PORT = 10809
 DEFAULT_SERVER_IP = "66.235.170.68"#改成你的服务器IP
 
 # Xray配置文件路径
-XRAY_CONFIG_PATH = "/etc/icmp9/xray.json"
+XRAY_CONFIG_PATH = ./xray_config.json"
 
 
 def fetch_countries() -> List[Dict[str, str]]:
