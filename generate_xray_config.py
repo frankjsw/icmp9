@@ -19,7 +19,8 @@ TUNNEL_DOMAIN = "tunnel.icmp9.com"
 TUNNEL_PORT = 443
 
 # Shadowsocks固定配置
-SS_METHOD = "2022-blake3-aes-128-gcm"
+#SS_METHOD = "2022-blake3-aes-128-gcm"
+SS_METHOD = "aes-256-gcm"
 SS_PASSWORD = "123456"#自己设置一个密码
 
 # VMess固定UUID
