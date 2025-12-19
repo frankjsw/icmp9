@@ -25,6 +25,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
+    - name: Install shadowsocks-libev
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y shadowsocks-libev  # 安装 ss-local
+
     - name: Run the Xray configuration script
       run: |
         python generate_xray_config.py
